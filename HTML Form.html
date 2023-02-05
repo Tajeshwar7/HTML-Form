@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+<h1>HTML FORM</h1>   
+  <form action="Welcome.html" method="GET">
+ <label for="username">Username:</label>
+ <input type="text" id="username" name="username" placeholder="username" required > <br> <br>
+
+ <label for="password"> Password:</label>
+ <input type="password" id="password" name="password" placeholder="password" required > <br> <br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="email" required > <br> <br>
+  <!-- radio button  -->
+  <p>select your gender</p>
+ <label for="male">male </label>
+ <input type="radio" name="gender" id="male" value="male" >
+ <label for="female">female </label>
+ <input type="radio" name="gender" id="female" value="female" > 
+ <label for="others">others </label>
+ <input type="radio" name="gender" id="others" value="others" > <br>
+ <br> <br>
+ <!-- dropdown list -->
+  <label for="age-group">Select your age:</label> 
+  <select name="age-group selected" id="age-group">
+    <option value="5-10">5-10</option>
+    <option value="10-15">10-15</option>
+    <option value="15-20">15-20</option>
+    <option value="20-30">20-30</option>
+  </select>
+ <br> <br>
+  <p>comment below</p>
+ <textarea name="type here" id="" cols="30" rows="10" placeholder="type here" ></textarea>
+<br>
+date: <input type="date" name="" id="">
+ <br>
+ color: <input type="color" name="" id="">
+ <br>
+ file: <input type="file" name="" id="">
+
+
+ 
+<br> <br>
+  <input type="submit" value="Sign in">
+ 
+
+  </form>
+</body>
+</html>
